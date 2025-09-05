@@ -1,17 +1,36 @@
 # Landing Page React + Vite + Tailwind CSS
 
-Una landing page moderna y responsiva construida con React, Vite y Tailwind CSS.
+Esta es la copia a una landing page moderna y responsiva construida con React, Vite y Tailwind CSS.
+
+---
 
 ## 🚀 Características
 
 - ⚡ **Vite** - Build tool ultra rápido
-- ⚛️ **React 18** - Biblioteca de UI moderna
+- ⚛️ **React** - Biblioteca de UI moderna
 - 🎨 **Tailwind CSS** - Framework CSS utility-first
 - 📱 **Diseño Responsivo** - Optimizado para todos los dispositivos
-- 🔧 **Componentes Modulares** - Arquitectura limpia y escalable
-- 📧 **Formulario de Contacto** - Funcionalidad completa de contacto
 - 🎯 **Utility-First** - Desarrollo rápido con clases predefinidas
 
+---
+
+## 🔗 DEMO en VIVO
+
+👉 [Ver Página]()
+
+---
+
+## 🎯 OBJETIVOS
+
+Desarrollar una página web utilizando React con Vite que replique de manera 100% fiel e idéntica el diseño entregado en la imagen adjunta: ()
+
+- Framework obligatorio: React con Vite.
+- Estilos: Puede usarse Tailwind CSS y librerías compatibles para facilitar el desarrollo.
+- Código limpio y ordenado.
+- Repositorio subido a GitHub.
+- Hacer deploy en Vercel o Netlify.
+
+---
 
 ## 📁 Estructura del Proyecto
 
@@ -28,6 +47,13 @@ src/
 ├── index.css           # Tailwind CSS imports
 └── main.jsx            # Punto de entrada
 ```
+
+| Tecnología | Uso |
+|------------|------|
+| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | Estructura semántica |
+| <img src="https://img.shields.io/badge/tailwind-css%20-%231572B6.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white" /> | Estilos |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=F7DF1E) | Interactividad de la página |
+
 
 <!-- 
 ## 🎨 Personalización
