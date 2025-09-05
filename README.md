@@ -29,6 +29,7 @@ src/
 └── main.jsx            # Punto de entrada
 ```
 
+<!-- 
 ## 🎨 Personalización
 
 ### Colores
@@ -75,21 +76,4 @@ npm run build
 # Sube el contenido de 'dist' a tu repositorio de GitHub Pages
 ```
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT.
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama para tu feature
-3. Commit tus cambios
-4. Push a la rama
-5. Abre un Pull Request
-
-## 📞 Soporte
-
-Si tienes preguntas o necesitas ayuda, no dudes en contactarnos:
-- Email: hola@miempresa.com
-- Teléfono: +54 11 1234-5678
+-->
