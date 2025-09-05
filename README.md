@@ -4,7 +4,7 @@ Esta es la copia a una landing page moderna y responsiva construida con React, V
 
 ---
 
-## 🚀 Características
+## 🚀 CARACTERÍSTICAS
 
 - ⚡ **Vite** - Build tool ultra rápido
 - ⚛️ **React** - Biblioteca de UI moderna
@@ -32,7 +32,7 @@ Desarrollar una página web utilizando React con Vite que replique de manera 100
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 ESTRUCTURA DEL PROYECTO
 
 ```
 src/
@@ -48,10 +48,14 @@ src/
 └── main.jsx            # Punto de entrada
 ```
 
+---
+
+## 🛠️ TECNOLOGÍAS 
+
 | Tecnología | Uso |
 |------------|------|
 | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | Estructura semántica |
-| <img src="https://img.shields.io/badge/tailwind-css%20-%231572B6.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white" /> | Estilos |
+| <img src="https://img.shields.io/badge/tailwind-css%20-%231572B6.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white" /> | Estilos modernos |
 | ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=F7DF1E) | Interactividad de la página |
 
 
