@@ -35,28 +35,28 @@ const Features = () => {
   ]
 
   return (
-    <section id="features" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-5">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+    <section id="features" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
             Características Principales
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
             Descubre todas las funcionalidades que hacen de nuestra plataforma 
             la mejor opción para tu negocio
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-              <div className="text-5xl mb-6 text-center">
+            <div key={index} class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
+              <div class="text-5xl mb-6 text-center">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-4 text-center">
+              <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">
                 {feature.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed text-center">
+              <p class="text-gray-600 leading-relaxed text-center">
                 {feature.description}
               </p>
             </div>
