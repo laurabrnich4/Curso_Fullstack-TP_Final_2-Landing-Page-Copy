@@ -1,76 +1,66 @@
-import React from 'react'
-
-const Footer = () => {
-  return (
-    <footer class="bg-gray-800 text-white py-16">
-      <div class="max-w-7xl mx-auto px-5">
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          <div class="lg:col-span-2">
-            <h3 class="text-2xl font-bold bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent mb-4">
-              MiEmpresa
-            </h3>
-            <p class="text-gray-300 leading-relaxed mb-6 max-w-md">
-              Transformamos ideas en soluciones digitales innovadoras. 
-              Tu éxito es nuestro compromiso.
-            </p>
-            <div class="flex space-x-4">
-              <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors duration-300" aria-label="Facebook">
-                📘
-              </a>
-              <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors duration-300" aria-label="Twitter">
-                🐦
-              </a>
-              <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors duration-300" aria-label="LinkedIn">
-                💼
-              </a>
-              <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors duration-300" aria-label="Instagram">
-                📷
-              </a>
+export default function Footer() {
+  return(
+    <footer class="bg-[#F9F4E8] py-16">
+        <div class="max-w-6xl mx-auto px-5">
+          {/* Contenido principal del footer */}
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-15 mx-auto justify-items-center">
+            {/* Newsletter */}
+            <div>
+              <h3 class="text-xl font-serif font-bold text-gray-800 mb-4">Newsletter</h3>
+              <p class="text-gray-600 mb-4">Subscribe to our newsletter to get more informations</p>
+              <div class="flex">
+                <input  
+                  type="email" 
+                  placeholder="Email" 
+                  class="bg-white flex-1 px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent placeholder:text-black"
+                />
+                <button class="bg-[#00715D] hover:bg-teal-800 text-white px-6 py-3 transition-colors duration-300 cursor-pointer">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            
+            {/* Navigation */}
+            <div class="ml-23">
+              <h3 class="text-xl font-serif font-bold text-gray-800 mb-4">Navigation</h3>
+              <ul class="space-y-2">
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Home</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Campaign</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Team</a></li>
+              </ul>
+            </div>
+            
+            {/* About Us */}
+            <div>
+              <h3 class="text-xl font-serif font-bold text-gray-800 mb-4">About Us</h3>
+              <ul class="space-y-2">
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">About Us</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Contact</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Address</a></li>
+              </ul>
+            </div>
+            
+            {/* Help */}
+            <div>
+              <h3 class="text-xl font-serif font-bold text-gray-800 mb-4">Help</h3>
+              <ul class="space-y-2">
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Donar Guide</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">FAQ</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">We Are Hiring</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Returns</a></li>
+              </ul>
             </div>
           </div>
           
-          <div>
-            <h4 class="text-lg font-bold mb-6">Enlaces Rápidos</h4>
-            <ul class="space-y-3">
-              <li><a href="#home" class="text-gray-300 hover:text-primary-400 transition-colors duration-300">Inicio</a></li>
-              <li><a href="#features" class="text-gray-300 hover:text-primary-400 transition-colors duration-300">Características</a></li>
-              <li><a href="#about" class="text-gray-300 hover:text-primary-400 transition-colors duration-300">Acerca de</a></li>
-              <li><a href="#contact" class="text-gray-300 hover:text-primary-400 transition-colors duration-300">Contacto</a></li>
-            </ul>
-          </div>
+          {/* Línea separadora */}
+          <div class="border-t border-gray-300 mb-8"></div>
           
-          <div>
-            <h4 class="text-lg font-bold mb-6">Servicios</h4>
-            <ul class="space-y-3">
-              <li><a href="#" class="text-gray-300 hover:text-primary-400 transition-colors duration-300">Desarrollo Web</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-primary-400 transition-colors duration-300">Aplicaciones Móviles</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-primary-400 transition-colors duration-300">Consultoría IT</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-primary-400 transition-colors duration-300">Soporte Técnico</a></li>
-            </ul>
+          {/* Créditos del diseñador */}
+          <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+            <p>Designed By Tanim Khan</p>
+            <a href="#" class="hover:text-teal-700 transition-colors duration-300">WWW.Dribbble.Com/Tanim_ui</a>
           </div>
         </div>
-        
-        <div class="border-t border-gray-700 pt-8">
-          <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p class="text-gray-400 text-sm">
-              &copy; 2024 MiEmpresa. Todos los derechos reservados.
-            </p>
-            <div class="flex space-x-6">
-              <a href="#" class="text-gray-400 hover:text-primary-400 text-sm transition-colors duration-300">
-                Política de Privacidad
-              </a>
-              <a href="#" class="text-gray-400 hover:text-primary-400 text-sm transition-colors duration-300">
-                Términos de Servicio
-              </a>
-              <a href="#" class="text-gray-400 hover:text-primary-400 text-sm transition-colors duration-300">
-                Cookies
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+      </footer>
   )
 }
-
-export default Footer

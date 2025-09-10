@@ -1,92 +1,97 @@
-import React from 'react'
-
-const Hero = () => {
+export default function Hero() {
   return (
-    <section id="home" class="pt-32 pb-20 bg-gradient-to-br from-primary-500 to-secondary-500 text-white relative overflow-hidden">
-      {/* Background Pattern */}
-      <div class="absolute inset-0 opacity-30">
-        <div class="absolute top-20 left-20 w-72 h-72 bg-white/10 rounded-full blur-3xl"></div>
-        <div class="absolute top-40 right-20 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-20 left-1/3 w-80 h-80 bg-white/8 rounded-full blur-3xl"></div>
-      </div>
-      
-      <div class="max-w-7xl mx-auto px-5 relative z-10">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-          <div class="space-y-8">
-            <h1 class="text-5xl lg:text-6xl font-bold leading-tight">
-              Transforma tu negocio con{' '}
-              <span class="bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent">
-                tecnología moderna
-              </span>
+     <section class="flex">
+        {/* Panel Izquierdo - Texto y UI */}
+        <div class="flex-1 bg-[#F9F4E8] p-12 flex flex-col justify-between">
+          {/* Logo */}
+          <div class="text-2xl font-bold text-gray-800 mb-8">
+            Ta
+          </div>
+          
+          {/* Contenido Principal */}
+          <div class="flex-1 flex flex-col justify-center mx-10">
+            {/* Título Principal */}
+            <h1 class="text-5xl font-serif font-bold text-gray-800 mb-6 leading-tight">
+              Charity Is An <br /> Act Of A Soft <br /> Heart.
             </h1>
-            <p class="text-xl text-white/90 leading-relaxed max-w-2xl">
-              Soluciones innovadoras que impulsan el crecimiento de tu empresa. 
-              Descubre cómo podemos ayudarte a alcanzar tus objetivos con herramientas 
-              de vanguardia y un equipo experto.
+            
+            {/* Párrafo */}
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+              We've spent the last 5 years helping over 25,00000 <br /> teams just like yourself create and sustain <br /> successful online support.
             </p>
-            <div class="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" class="inline-block px-8 py-4 bg-gradient-to-r from-pink-400 to-red-400 text-white font-semibold rounded-full hover:shadow-xl hover:-translate-y-1 transition-all duration-300 text-center">
-                Comenzar ahora
-              </a>
-              <a href="#features" class="inline-block px-8 py-4 border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-primary-500 transition-all duration-300 text-center">
-                Conocer más
-              </a>
-            </div>
-            <div class="flex flex-wrap gap-8 pt-8">
-              <div class="text-center">
-                <span class="block text-3xl font-bold text-pink-300">500+</span>
-                <span class="text-white/80 text-sm">Clientes satisfechos</span>
-              </div>
-              <div class="text-center">
-                <span class="block text-3xl font-bold text-pink-300">99%</span>
-                <span class="text-white/80 text-sm">Satisfacción</span>
-              </div>
-              <div class="text-center">
-                <span class="block text-3xl font-bold text-pink-300">24/7</span>
-                <span class="text-white/80 text-sm">Soporte</span>
+            
+            {/* Botones y Video */}
+            <div class="flex items-start gap-8 mb-12">
+              {/* Botón Donate Now */}
+              <button class="bg-[#00715D] hover:bg-teal-800 text-white px-8 py-4 text-lg font-semibold transition-colors cursor-pointer ">
+                Donate Now
+              </button>
+
+              
+
+              <div class="flex items-center gap-4">
+                <img src="img/flecha.png" class="w-15" alt=""/>
+                
+                {/* Botón circular con texto alrededor */}
+                <div class="relative flex items-center justify-center ml-10">
+                  <button class="w-16 h-16 bg-[#FDD65B] hover:bg-yellow-500 rounded-full flex items-center justify-center transition-colors cursor-pointer z-10">
+                    <svg class="w-6 h-6 text-gray-800" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </button>
+
+                  {/* Texto circular */}
+                  <svg
+                    viewBox="0 0 80 80"
+                    class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 pointer-events-none"
+                  >
+                    <defs>
+                      <path
+                        id="circlePath"
+                        d="M 40, 40 m -30, 0 a 30,30 0 1,1 60,0 a 30,30 0 1,1 -60,0"
+                      />
+                    </defs>
+                    <text fill="black" fontSize="8" letterSpacing={".2rem"} class="font-serif">
+                      <textPath href="#circlePath" startOffset="0%">
+                        Learn about us through this video
+                      </textPath>
+                    </text>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
           
-          <div class="flex justify-center lg:justify-end">
-            <div class="w-full max-w-md bg-white rounded-3xl shadow-2xl overflow-hidden">
-              <div class="bg-gray-50 px-6 py-4 border-b border-gray-200">
-                <div class="flex space-x-2">
-                  <div class="w-3 h-3 bg-red-400 rounded-full"></div>
-                  <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                  <div class="w-3 h-3 bg-green-400 rounded-full"></div>
-                </div>
-              </div>
-              <div class="p-8">
-                <div class="space-y-6">
-                  <div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-4">Panel de Control</h3>
-                    <div class="flex space-x-4">
-                      <div class="bg-gray-100 px-4 py-2 rounded-lg text-center">
-                        <span class="block text-lg font-bold text-primary-500">+25%</span>
-                        <span class="text-sm text-gray-600">Ventas</span>
-                      </div>
-                      <div class="bg-gray-100 px-4 py-2 rounded-lg text-center">
-                        <span class="block text-lg font-bold text-primary-500">1.2K</span>
-                        <span class="text-sm text-gray-600">Usuarios</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="h-24 flex items-end space-x-2">
-                    <div class="flex-1 bg-gradient-to-t from-primary-500 to-primary-400 rounded-t" style={{ height: '60%' }}></div>
-                    <div class="flex-1 bg-gradient-to-t from-primary-500 to-primary-400 rounded-t" style={{ height: '80%' }}></div>
-                    <div class="flex-1 bg-gradient-to-t from-primary-500 to-primary-400 rounded-t" style={{ height: '45%' }}></div>
-                    <div class="flex-1 bg-gradient-to-t from-primary-500 to-primary-400 rounded-t" style={{ height: '90%' }}></div>
-                    <div class="flex-1 bg-gradient-to-t from-primary-500 to-primary-400 rounded-t" style={{ height: '70%' }}></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {/* Redes Sociales */}
+          <div class="flex gap-2 text-sm text-gray-700 justify-center gap-11 font-bold">
+            <a href="" target='_blank' class="hover:text-[#005F5A] transform hover:scale-110 transition"><span>Youtube</span></a>
+            <span>•</span>
+            <a href="" target='_blank' class="hover:text-[#005F5A] transform hover:scale-110 transition"><span>Facebook</span></a>
+            <span>•</span>
+            <a href="" target='_blank' class="hover:text-[#005F5A] transform hover:scale-110 transition"><span>Instagram</span></a>
           </div>
         </div>
-      </div>
-    </section>
+        
+        {/* Panel Derecho - Navegación e Imagen */}
+        <div class="flex-1 relative">
+          {/* Barra de Navegación Amarilla */}
+          <div class="bg-[#FDD65B] px-8 py-4 flex items-center justify-center pt-10">
+            <nav class="flex items-center gap-9 text-gray-600 font-medium">
+              <a href="" class="hover:text-[#005F5A] transform hover:scale-110 transition"><span>About Us</span></a>  
+              <span>•</span>
+              <a href="" class="hover:text-[#005F5A] transform hover:scale-110 transition"><span>Campaign</span></a>
+              <span>•</span>
+              <a href="" class="hover:text-[#005F5A] transform hover:scale-110 transition"><span>Contact Us</span></a>
+            </nav>
+          </div>
+          
+
+
+          {/* Imagen Principal */}
+          <div class="bg-gradient-to-br bg-[#FDD65B] flex items-center justify-center relative overflow-hidden">
+            <img src="img/hombre-niño.jpg" alt="Imagen de un hombre con un niño y una pelota de futbol" class="w-130 transform -translate-x-44 mt-10"/>
+          </div>
+        </div>
+      </section>
   )
 }
-
-export default Hero
