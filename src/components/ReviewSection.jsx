@@ -1,3 +1,5 @@
+import Imagen2 from '../img/ReviewSection/hombre-sonriendoo.jpg';
+
 export default function ReviewSection() { 
     return(
         <section class="bg-[#F9F4E8] py-25 flex justify-center">
@@ -7,7 +9,7 @@ export default function ReviewSection() {
             <div class="relative">
               <div class="relative w-full h-96 lg:h-[31.25rem]">
                 {/* Imagen semicircular */}
-                <img src="img/hombre-sonriendoo.jpg" class="w-100 h-auto rounded-b-full" alt="" />
+                <img src={Imagen2} class="w-100 h-auto rounded-b-full" alt="" />
                 
                 {/* Badge de calificación 5.0 */}
                 <div class="absolute top-0 left-0 bg-teal-800 px-6 py-8 flex items-center space-x-1 rounded-b-full">

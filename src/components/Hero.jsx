@@ -1,3 +1,5 @@
+import Imagen from '../img/Hero/hombre-niño.jpg';
+
 export default function Hero() {
   return (
      <section class="flex">
@@ -89,7 +91,7 @@ export default function Hero() {
 
           {/* Imagen Principal */}
           <div class="bg-gradient-to-br bg-[#FDD65B] flex items-center justify-center relative overflow-hidden">
-            <img src="img/hombre-niño.jpg" alt="Imagen de un hombre con un niño y una pelota de futbol" class="w-130 transform -translate-x-44 mt-10"/>
+            <img src={Imagen} alt="Imagen de un hombre con un niño y una pelota de futbol" class="w-130 transform -translate-x-44 mt-10"/>
           </div>
         </div>
       </section>

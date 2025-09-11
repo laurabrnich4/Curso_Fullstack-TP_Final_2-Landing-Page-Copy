@@ -15,7 +15,7 @@ export default function CampaignSection() {
           <div class="flex flex-row gap-3">
             <div class="bg-white">
               <a href="" target='blank_'>
-                <img src={Vacunas} alt="Covid-19" class="w-300 h-73"/>
+                <img src={Vacunas} alt="Covid-19" class="w-300"/>
                 <div class="p-6 text-center">
                   <h3 style={{ fontFamily: "Recoleta Bold" }} class="text-xl font-semibold text-gray-800 hover:text-teal-700 duration-300">Covid - 19</h3>
                 </div>
