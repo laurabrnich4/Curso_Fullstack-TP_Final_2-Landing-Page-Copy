@@ -1,3 +1,5 @@
+import vacunas from '../public/img/vacunas.jpg';
+
 export default function CampaignSection() {
   return (
       <section class="bg-[#F9F4E8] py-20 grid grid-cols-1 md:grid-cols-[auto_450px] flex justify-center gap-3 min-h-screen">
@@ -11,7 +13,7 @@ export default function CampaignSection() {
           <div class="flex flex-row gap-3">
             <div class="bg-white">
               <a href="" target='blank_'>
-                <img src="public/img/vacunas.jpg" alt="Covid-19" class="w-300 h-73"/>
+                <img src={vacunas} alt="Covid-19" class="w-300 h-73"/>
                 <div class="p-6 text-center">
                   <h3 style={{ fontFamily: "Recoleta Bold" }} class="text-xl font-semibold text-gray-800 hover:text-teal-700 duration-300">Covid - 19</h3>
                 </div>
