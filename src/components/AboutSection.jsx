@@ -1,3 +1,5 @@
+import Voluntarios from '../img/AboutSection/mujer-hombree.jpg';
+
 export default function AboutSection() {
   return(
     <section class="relative bg-[#F9F4E8] py-20 flex justify-center"> 
@@ -9,7 +11,7 @@ export default function AboutSection() {
           <div class="flex flex-col lg:flex-row items-end">
             {/* Imagen semicircular a la izquierda */}
             <div class=" relative flex">
-              <img src="public/img/mujer-hombree.jpg" class="w-90 h-auto rounded-t-full" alt="Voluntarios"/>
+              <img src={Voluntarios} class="w-90 h-auto rounded-t-full" alt="Voluntarios"/>
             </div>
             
             {/* Contenido de texto a la derecha */}
