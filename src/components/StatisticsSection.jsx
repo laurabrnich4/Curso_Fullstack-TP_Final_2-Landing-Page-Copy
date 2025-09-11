@@ -10,8 +10,8 @@ export default function StatisticsSection() {
                         <img src="img/images.jpeg" class='rounded-full' alt="" />
                         </div>
                     </div>
-                    <div style={{ fontFamily: 'Recoleta-Bold, serif' }} class="text-3xl font-bold mb-2">985+</div>
-                    <div class="text-sm text-white/80">Donation Received</div>
+                    <div style={{ fontFamily: 'Recoleta Bold' }} class="text-3xl font-bold mb-2">985+</div>
+                    <div style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="text-sm text-white/80 tracking-widest">Donation Received</div>
                     </div>
                     
                     {/* Money Donated */}
@@ -21,8 +21,8 @@ export default function StatisticsSection() {
                         <img src="img/icono-caja.jpg" alt="" />
                         </div>
                     </div>
-                    <div style={{ fontFamily: 'Recoleta-Bold, serif' }} class="text-3xl font-bold mb-2">$10 M</div>
-                    <div class="text-sm text-white/80">Money Donated</div>
+                    <div style={{ fontFamily: 'Recoleta Bold' }} class="text-3xl font-bold mb-2">$10 M</div>
+                    <div style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="text-sm text-white/80 tracking-widest">Money Donated</div>
                     </div>
                     
                     {/* Active Campaigns */}
@@ -32,8 +32,8 @@ export default function StatisticsSection() {
                         <img src="img/icono-sonido.png" class="rounded-full" alt="" />
                         </div>
                     </div>
-                    <div style={{ fontFamily: 'Recoleta-Bold, serif' }} class="text-3xl font-bold mb-2">12+</div>
-                    <div class="text-sm text-white/80">Active Campaigns</div>
+                    <div style={{ fontFamily: 'Recoleta Bold' }} class="text-3xl font-bold mb-2">12+</div>
+                    <div style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="text-sm text-white/80 tracking-widest">Active Campaigns</div>
                     </div>
                     
                     {/* Charity in last Year */}
@@ -43,8 +43,8 @@ export default function StatisticsSection() {
                         <img src="img/pazz.png" class="rounded-full" alt="" />
                         </div>
                     </div>
-                    <div style={{ fontFamily: 'Recoleta-Bold, serif' }} class="text-3xl font-bold mb-2">$60 M</div>
-                    <div class="text-sm text-white/80">Charity in last Year</div>
+                    <div style={{ fontFamily: 'Recoleta Bold' }} class="text-3xl font-bold mb-2">$60 M</div>
+                    <div style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="text-sm text-white/80 tracking-widest">Charity in last Year</div>
                     </div>
                 </div>
             </div>

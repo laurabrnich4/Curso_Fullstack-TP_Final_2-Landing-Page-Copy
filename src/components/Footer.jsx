@@ -6,9 +6,9 @@ export default function Footer() {
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-15 mx-auto justify-items-center">
             {/* Newsletter */}
             <div>
-              <h3  style={{ fontFamily: 'Recoleta-Regular, serif' }} class="text-xl font-serif font-bold text-gray-800 mb-4">Newsletter</h3>
-              <p class="text-gray-600 mb-4">Subscribe to our newsletter to get more informations</p>
-              <div class="flex">
+              <h3 style={{ fontFamily: "Recoleta Bold" }} class="text-xl font-serif font-bold text-gray-800 mb-4">Newsletter</h3>
+              <p style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="text-gray-600 mb-4 tracking-wide">Subscribe to our newsletter to get more informations</p>
+              <div style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="flex tracking-wider">
                 <input  
                   type="email" 
                   placeholder="Email" 
@@ -22,8 +22,8 @@ export default function Footer() {
             
             {/* Navigation */}
             <div class="ml-23">
-              <h3 style={{ fontFamily: 'Recoleta-Regular, serif' }} class="text-xl font-serif font-bold text-gray-800 mb-4">Navigation</h3>
-              <ul class="space-y-2">
+              <h3 style={{ fontFamily: "Recoleta Bold" }} class="text-xl font-serif font-bold text-gray-800 mb-4">Navigation</h3>
+              <ul style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="space-y-2 tracking-wider">
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Home</a></li>
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Campaign</a></li>
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Team</a></li>
@@ -32,8 +32,8 @@ export default function Footer() {
             
             {/* About Us */}
             <div>
-              <h3 style={{ fontFamily: 'Recoleta-Regular, serif' }} class="text-xl font-serif font-bold text-gray-800 mb-4">About Us</h3>
-              <ul class="space-y-2">
+              <h3 style={{ fontFamily: "Recoleta Bold" }} class="text-xl font-serif font-bold text-gray-800 mb-4">About Us</h3>
+              <ul style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="space-y-2 tracking-wider">
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">About Us</a></li>
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Contact</a></li>
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Address</a></li>
@@ -42,8 +42,8 @@ export default function Footer() {
             
             {/* Help */}
             <div>
-              <h3 style={{ fontFamily: 'Recoleta-Regular, serif' }} class="text-xl font-serif font-bold text-gray-800 mb-4">Help</h3>
-              <ul class="space-y-2">
+              <h3 style={{ fontFamily: "Recoleta Bold" }} class="text-xl font-serif font-bold text-gray-800 mb-4">Help</h3>
+              <ul style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="space-y-2 tracking-wider">
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Donar Guide</a></li>
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">FAQ</a></li>
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">We Are Hiring</a></li>
@@ -56,7 +56,7 @@ export default function Footer() {
           <div class="border-t border-gray-300 mb-8"></div>
           
           {/* Créditos del diseñador */}
-          <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+          <div style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 tracking-wider">
             <p>Designed By Tanim Khan</p>
             <a href="#" class="hover:text-teal-700 transition-colors duration-300">WWW.Dribbble.Com/Tanim_ui</a>
           </div>

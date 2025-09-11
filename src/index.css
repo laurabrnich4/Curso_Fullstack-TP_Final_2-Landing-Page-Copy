@@ -16,6 +16,19 @@
     font-display:swap;
 }
 
+@font-face{
+    font-family: "Recoleta Bold";
+    src: url("f4d849075c9b4c0047fc56a828879854.eot");
+    src: url("f4d849075c9b4c0047fc56a828879854.eot?#iefix")format("embedded-opentype"),
+        url("f4d849075c9b4c0047fc56a828879854.woff")format("woff"),
+        url("f4d849075c9b4c0047fc56a828879854.woff2")format("woff2"),
+        url("f4d849075c9b4c0047fc56a828879854.ttf")format("truetype"),
+        url("f4d849075c9b4c0047fc56a828879854.svg#Recoleta Bold")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
 
 /* Scroll suave */
 html {

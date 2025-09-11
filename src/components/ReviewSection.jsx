@@ -22,12 +22,12 @@ export default function ReviewSection() {
             {/* Panel derecho - Testimonial */}
             <div class="flex-1">
               <div class="bg-white p-8 max-w-lg">
-                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                <p style={{ fontFamily: "VAG Rounded LT W04 Thin" }}  class="text-lg text-gray-700 leading-relaxed mb-8 tracking-wide">
                   "We're very happy that the challegne went well, and we're grateful that we have a partner in Charity Challenge whom we could trust to take the best possible care of our supporters."
                 </p>
                 
                 <div class="mb-8">
-                  <h3 style={{ fontFamily: 'Recoleta-Bold, serif' }} class="text-2xl font-black text-gray-800 mb-1">Mustafa Kamal</h3>
+                  <h3 style={{ fontFamily: "Recoleta Bold" }} class="text-2xl font-black text-gray-800 mb-1">Mustafa Kamal</h3>
                   <p class="text-gray-600">Ceo, Toogle</p>
                 </div>
                 

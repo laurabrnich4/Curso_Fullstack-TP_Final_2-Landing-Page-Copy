@@ -11,7 +11,7 @@ export default function Hero() {
           {/* Contenido Principal */}
           <div class="flex-1 flex flex-col justify-center mx-10">
             {/* Título Principal */}
-            <h1 style={{ fontFamily: 'Recoleta-Bold, serif' }} class="text-5xl font-serif font-bold text-gray-800 mb-6 leading-tight">
+            <h1 style={{ fontFamily: "Recoleta Bold" }} class="text-5xl font-serif font-bold text-gray-800 mb-6 leading-tight">
               Charity Is An <br /> Act Of A Soft <br /> Heart.
             </h1>
             
@@ -51,7 +51,7 @@ export default function Hero() {
                         d="M 40, 40 m -30, 0 a 30,30 0 1,1 60,0 a 30,30 0 1,1 -60,0"
                       />
                     </defs>
-                    <text fill="black" fontSize="8" letterSpacing={".2rem"} class="font-serif">
+                    <text fill="black" fontSize="8" letterSpacing={".12rem"}>
                       <textPath href="#circlePath" startOffset="0%">
                         Learn about us through this video
                       </textPath>
