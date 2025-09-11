@@ -1,4 +1,6 @@
 import Vacunas from '../img/CampaignSection/vacunas.jpg';
+import Bolsa from '../img/CampaignSection/bolsa.jpeg';
+import Botella from '../img/CampaignSection/botella-vidrio.jpeg';
 
 export default function CampaignSection() {
   return (
@@ -22,7 +24,7 @@ export default function CampaignSection() {
             
             <div class="bg-white">
               <a href="" target='blank_'>
-                <img src="public/img/bolsa.jpeg" alt="Food Bank" class="w-300"/>
+                <img src={Bolsa} alt="Food Bank" class="w-300"/>
                 <div class="p-6 text-center">
                   <h3 style={{ fontFamily: "Recoleta Bold" }} class="text-xl font-semibold text-gray-800  hover:text-teal-700 duration-300">Food Bank</h3>
                 </div>
@@ -36,7 +38,7 @@ export default function CampaignSection() {
           <div class="flex flex-col text-center md:items-center">
               <a href="" target='_blank' class="w-70">
                 <div class="bg-white mb-13 justify-center">
-                  <img src="public/img/botella-vidrio.jpeg" alt="Safe Water" class="w-full h-96 object-cover"/>
+                  <img src={Botella} alt="Safe Water" class="w-full h-96 object-cover"/>
                   <div class="p-6 text-center">
                       <h3 style={{ fontFamily: "Recoleta Bold" }} class="text-xl font-semibold text-gray-800 hover:text-teal-700 duration-300">Safe Water</h3>
                   </div>
