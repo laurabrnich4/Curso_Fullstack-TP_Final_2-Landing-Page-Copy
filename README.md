@@ -14,9 +14,13 @@ Esta es la copia a una landing page moderna y responsiva construida con React, V
 
 ---
 
-## 🔗 DEMO en VIVO
+## 🔗 PARA ACCEDER AL PROYECTO
 
-👉 [Ver Página]()
+👉 [Link de la página](https://curso-fullstack-tp-final-2-landing.vercel.app/)
+
+👉 [Deploy en Vercel](https://vercel.com/laura-brnichs-projects/curso-fullstack-tp-final-2-landing-page-copy/9amvJvGjYnHzPVCXCpKQLqV1HzNc)
+
+👉 [Post en LinkedIn]()
 
 ---
 
@@ -36,16 +40,18 @@ Desarrollar una página web utilizando React con Vite que replique de manera 100
 
 ```
 src/
-├── components/          # Componentes React
-│   ├── Header.jsx      # Navegación principal
-│   ├── Hero.jsx        # Sección hero
-│   ├── Features.jsx    # Características
-│   ├── About.jsx       # Acerca de nosotros
-│   ├── Contact.jsx     # Formulario de contacto
-│   └── Footer.jsx      # Pie de página
-├── App.jsx             # Componente principal
-├── index.css           # Tailwind CSS imports
-└── main.jsx            # Punto de entrada
+├── components/                # Componentes React
+│   ├── AboutSection.jsx       # Acerca de la organización
+│   ├── CampaignSection.jsx    # Acerca de las campañas
+│   ├── DonationSection.jsx    # Sección de Donación
+│   ├── Footer.jsx             # Sección Footer
+│   ├── Hero.jsx               # Sección Hero
+│   ├── ReviewSection.jsx      # Sección de comentario
+│   ├── StatisticsSection.jsx  # Sección de estadísticas
+│   └── TeamSection.jsx        # Sección del equipo
+├── App.jsx                    # Componente principal
+├── index.css                  # Tailwind CSS imports
+└── main.jsx                   # Punto de entrada
 ```
 
 ---
@@ -57,6 +63,8 @@ src/
 | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | Estructura semántica |
 | <img src="https://img.shields.io/badge/tailwind-css%20-%231572B6.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white" /> | Estilos modernos |
 | ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=F7DF1E) | Interactividad de la página |
+| <img src="https://img.shields.io/badge/react%20-%2300D9FF.svg?&style=for-the-badge&logo=react&logoColor=white" /> | Interfaces de usuario a partir de componentes |
+| ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) | Deployment |
 
 
 <!-- 
