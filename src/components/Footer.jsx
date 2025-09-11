@@ -6,7 +6,7 @@ export default function Footer() {
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-15 mx-auto justify-items-center">
             {/* Newsletter */}
             <div>
-              <h3 class="text-xl font-serif font-bold text-gray-800 mb-4">Newsletter</h3>
+              <h3  style={{ fontFamily: 'Recoleta-Regular, serif' }} class="text-xl font-serif font-bold text-gray-800 mb-4">Newsletter</h3>
               <p class="text-gray-600 mb-4">Subscribe to our newsletter to get more informations</p>
               <div class="flex">
                 <input  
@@ -22,7 +22,7 @@ export default function Footer() {
             
             {/* Navigation */}
             <div class="ml-23">
-              <h3 class="text-xl font-serif font-bold text-gray-800 mb-4">Navigation</h3>
+              <h3 style={{ fontFamily: 'Recoleta-Regular, serif' }} class="text-xl font-serif font-bold text-gray-800 mb-4">Navigation</h3>
               <ul class="space-y-2">
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Home</a></li>
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Campaign</a></li>
@@ -32,7 +32,7 @@ export default function Footer() {
             
             {/* About Us */}
             <div>
-              <h3 class="text-xl font-serif font-bold text-gray-800 mb-4">About Us</h3>
+              <h3 style={{ fontFamily: 'Recoleta-Regular, serif' }} class="text-xl font-serif font-bold text-gray-800 mb-4">About Us</h3>
               <ul class="space-y-2">
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">About Us</a></li>
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Contact</a></li>
@@ -42,7 +42,7 @@ export default function Footer() {
             
             {/* Help */}
             <div>
-              <h3 class="text-xl font-serif font-bold text-gray-800 mb-4">Help</h3>
+              <h3 style={{ fontFamily: 'Recoleta-Regular, serif' }} class="text-xl font-serif font-bold text-gray-800 mb-4">Help</h3>
               <ul class="space-y-2">
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">Donar Guide</a></li>
                 <li><a href="#" class="text-gray-600 hover:text-teal-700 transition-colors duration-300">FAQ</a></li>

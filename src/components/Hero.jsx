@@ -2,28 +2,28 @@ export default function Hero() {
   return (
      <section class="flex">
         {/* Panel Izquierdo - Texto y UI */}
-        <div class="flex-1 bg-[#F9F4E8] p-12 flex flex-col justify-between">
+        <div style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="flex-1 bg-[#F9F4E8] p-12 flex flex-col justify-between tracking-wider">
           {/* Logo */}
-          <div class="text-2xl font-bold text-gray-800 mb-8">
-            Ta
+          <div class="text-2xl font-bold text-gray-800 mb-8 ">
+            T a
           </div>
           
           {/* Contenido Principal */}
           <div class="flex-1 flex flex-col justify-center mx-10">
             {/* Título Principal */}
-            <h1 class="text-5xl font-serif font-bold text-gray-800 mb-6 leading-tight">
+            <h1 style={{ fontFamily: 'Recoleta-Bold, serif' }} class="text-5xl font-serif font-bold text-gray-800 mb-6 leading-tight">
               Charity Is An <br /> Act Of A Soft <br /> Heart.
             </h1>
             
             {/* Párrafo */}
-            <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+            <p style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="text-lg text-gray-700 mb-8 leading-relaxed tracking-wider">
               We've spent the last 5 years helping over 25,00000 <br /> teams just like yourself create and sustain <br /> successful online support.
             </p>
             
             {/* Botones y Video */}
             <div class="flex items-start gap-8 mb-12">
               {/* Botón Donate Now */}
-              <button class="bg-[#00715D] hover:bg-teal-800 text-white px-8 py-4 text-lg font-semibold transition-colors cursor-pointer ">
+              <button class="bg-[#00715D] hover:bg-teal-800 text-white px-8 py-4 text-lg transition-colors cursor-pointer tracking-widest">
                 Donate Now
               </button>
 
@@ -75,8 +75,8 @@ export default function Hero() {
         {/* Panel Derecho - Navegación e Imagen */}
         <div class="flex-1 relative">
           {/* Barra de Navegación Amarilla */}
-          <div class="bg-[#FDD65B] px-8 py-4 flex items-center justify-center pt-10">
-            <nav class="flex items-center gap-9 text-gray-600 font-medium">
+          <div style={{ fontFamily: "VAG Rounded LT W04 Thin" }} class="bg-[#FDD65B] px-8 py-4 flex items-center justify-center pt-10 tracking-wider">
+            <nav class="flex items-center gap-9 text-gray-600 font-medium font-semibold">
               <a href="" class="hover:text-[#005F5A] transform hover:scale-110 transition"><span>About Us</span></a>  
               <span>•</span>
               <a href="" class="hover:text-[#005F5A] transform hover:scale-110 transition"><span>Campaign</span></a>

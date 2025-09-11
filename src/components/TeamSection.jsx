@@ -7,7 +7,7 @@ export default function TeamSection() {
             <div class="max-w-7xl mx-auto px-5">
             {/* Título */}
             <div class="text-center mb-20"> 
-                <h2 class="text-4xl lg:text-5xl font-serif font-bold text-black mb-4">
+                <h2 style={{ fontFamily: 'Recoleta-Bold, serif' }} class="text-4xl lg:text-6xl font-black text-black mb-4">
                 Our Team
                 </h2>
                 <div class="w-16 h-0.5 bg-gray-500 mx-auto"></div>

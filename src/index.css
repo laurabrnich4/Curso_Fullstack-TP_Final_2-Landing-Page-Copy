@@ -3,6 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+    font-family: "VAG Rounded LT W04 Thin";
+    src: url("980cafe6f613d4b384ac55dc01296726.eot");
+    src: url("980cafe6f613d4b384ac55dc01296726.eot?#iefix")format("embedded-opentype"),
+        url("980cafe6f613d4b384ac55dc01296726.woff")format("woff"),
+        url("980cafe6f613d4b384ac55dc01296726.woff2")format("woff2"),
+        url("980cafe6f613d4b384ac55dc01296726.ttf")format("truetype"),
+        url("980cafe6f613d4b384ac55dc01296726.svg#VAG Rounded LT W04 Thin")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+
 /* Scroll suave */
 html {
   scroll-behavior: smooth;

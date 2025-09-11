@@ -15,7 +15,7 @@ export default function AboutSection() {
             {/* Contenido de texto a la derecha */}
             <div class="flex-1">
               <div class="bg-white p-12 rounded-lg max-w-lg">
-                <h2 class="text-4xl lg:text-5xl font-serif font-bold text-gray-800 mb-4">
+                <h2 style={{ fontFamily: 'Recoleta-Bold, serif' }} class="text-4xl lg:text-6xl font-black text-gray-800 mb-4">
                   About Us
                 </h2>
                 <div class="w-16 h-1 bg-teal-700 mb-6"></div>
