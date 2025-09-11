@@ -1,6 +1,6 @@
 # Landing Page React + Vite + Tailwind CSS
 
-Esta es la copia a una landing page moderna y responsiva construida con React, Vite y Tailwind CSS.
+Hice una copia de una landing page moderna construida con React, Vite y Tailwind CSS.
 
 ---
 
@@ -9,7 +9,6 @@ Esta es la copia a una landing page moderna y responsiva construida con React, V
 - ⚡ **Vite** - Build tool ultra rápido
 - ⚛️ **React** - Biblioteca de UI moderna
 - 🎨 **Tailwind CSS** - Framework CSS utility-first
-- 📱 **Diseño Responsivo** - Optimizado para todos los dispositivos
 - 🎯 **Utility-First** - Desarrollo rápido con clases predefinidas
 
 ---
@@ -65,53 +64,3 @@ src/
 | ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=F7DF1E) | Interactividad de la página |
 | <img src="https://img.shields.io/badge/react%20-%2300D9FF.svg?&style=for-the-badge&logo=react&logoColor=white" /> | Interfaces de usuario a partir de componentes |
 | ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) | Deployment |
-
-
-<!-- 
-## 🎨 Personalización
-
-### Colores
-Los colores principales se definen en `tailwind.config.js`:
-- `primary-500`: #667eea
-- `secondary-500`: #764ba2
-- `accent-500`: #ec4899
-
-### Contenido
-Modifica el contenido directamente en los componentes JSX:
-- Textos en `src/components/`
-- Enlaces de navegación en `Header.jsx`
-- Información de contacto en `Contact.jsx` y `Footer.jsx`
-
-### Estilos con Tailwind
-- Usa clases de Tailwind para estilos rápidos
-- Personaliza colores en `tailwind.config.js`
-- Añade utilidades personalizadas en `src/index.css`
-
-## 📱 Responsive Design
-
-La landing page está optimizada para:
-- 📱 Móviles (320px+)
-- 📱 Tablets (768px+)
-- 💻 Desktop (1024px+)
-
-## 🚀 Despliegue
-
-### Vercel
-```bash
-npm run build
-# Sube la carpeta 'dist' a Vercel
-```
-
-### Netlify
-```bash
-npm run build
-# Arrastra la carpeta 'dist' a Netlify
-```
-
-### GitHub Pages
-```bash
-npm run build
-# Sube el contenido de 'dist' a tu repositorio de GitHub Pages
-```
-
--->
