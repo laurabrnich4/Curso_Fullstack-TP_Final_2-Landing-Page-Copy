@@ -19,7 +19,7 @@ Hice una copia de una landing page moderna construida con React, Vite y Tailwind
 
 👉 [Deploy en Vercel](https://vercel.com/laura-brnichs-projects/curso-fullstack-tp-final-2-landing-page-copy/9amvJvGjYnHzPVCXCpKQLqV1HzNc)
 
-👉 [Post en LinkedIn]()
+👉 [Post en LinkedIn](https://www.linkedin.com/posts/laura-lourdes-brnich-33a43b29a_react-vite-tailwindcss-activity-7371972530535854081-oIkr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhSzx4B-7RZx4gmCkNAcl0IWnJvgdDo3-Q)
 
 ---
 
